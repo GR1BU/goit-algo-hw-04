@@ -11,7 +11,7 @@ def total_salary(path):
             salaries.append(salary)
 
         total = sum(salaries)
-        average = total / len(aslaries)
+        average = total / len(salaries)
 
         return total, average
 
