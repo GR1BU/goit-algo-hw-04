@@ -7,11 +7,11 @@ def total_salary(path):
 
         for line in lines:
             name_num = line.strip().split(",")
-            salary = int(name_num[1])
+            salary = float(name_num[1])
             salaries.append(salary)
 
         total = sum(salaries)
-        average = total / len(salaries)
+        average = total / len(aslaries)
 
         return total, average
 
